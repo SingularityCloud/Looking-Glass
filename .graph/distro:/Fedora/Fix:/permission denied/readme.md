@@ -8,3 +8,6 @@ discuss:
 
 ## Solution: Selinux rule
 https://unix.stackexchange.com/questions/660413/adding-an-selinux-rule-to-grant-a-user-read-write-access-to-specific-file
+
+Temporary Not ideal:
+`sudo setenforce 0`
