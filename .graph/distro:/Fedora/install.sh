@@ -5,4 +5,4 @@ f /dev/shm/looking-glass 0660 qemu qemu -``` | sudo tee /etc/tmpfiles.d/10-looki
 
 sudo chown qemu:qemu /dev/shm/looking-glass
 
-usermod -a -G $USER qemu
+sudo usermod -a -G $USER qemu
